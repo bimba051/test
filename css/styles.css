@@ -8,8 +8,8 @@ ul {
 
 .header {
     display: flex;
-    justify-content: space-between; /* логотип зліва, меню справа */
-    align-items: center;           /* вирівнює по вертикалі */
+    justify-content: space-between; 
+    align-items: center;           
     padding: 20px;
     background: #F4F4FD;
     position: fixed;
@@ -25,30 +25,30 @@ ul {
 .header__nav {
    display: flex;
     align-items: center;
-    gap: 1100px; /* відстань між меню і контактами */
+    gap: 1100px; 
 }
 
 .nav__list {
-   display: flex;                /* Робить елементи меню в ряд */
-    gap: 30px;                    /* Відстань між пунктами меню */
-    list-style: none;             /* Прибирає точки */
-    margin: 0;                    /* Прибирає стандартні зовнішні відступи */
-    padding: 0;                   /* Прибирає внутрішні відступи */
+   display: flex;                
+    gap: 30px;                   
+    list-style: none;           
+    margin: 0;                   
+    padding: 0;                 
 }
 .nav__item {
 }
 .nav__link {
-    text-decoration: none;        /* Прибирає підкреслення */
-    color: black;                 /* Колір тексту */
+    text-decoration: none;        
+    color: black;                 
 }
 .header__contacts {
-    display: flex;                /* Контакти в один ряд */
-    gap: 20px;                    /* Відстань між email і телефоном */
-    font-style: normal;           /* Прибирає курсив у <address> */
+    display: flex;               
+    gap: 20px;                   
+    font-style: normal;           
 }
 .contacts__link {
-   text-decoration: none;        /* Без підкреслення */
-    color: black;                 /* Колір тексту */
+   text-decoration: none;       
+    color: black;                 
 
 }
 
@@ -56,8 +56,8 @@ ul {
 .hero {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* вертикальне центрування */
-    align-items: center;     /* горизонтальне центрування */
+    justify-content: center;
+    align-items: center;     
     text-align: center;
     background: #2E2F42;
     width: 100%;
@@ -67,8 +67,8 @@ ul {
 .hero__title {
     font-size: 70px;
     color: #fff;
-    max-width: 600px; /* обмежує ширину, щоб текст переносився */
-    line-height: 1.2; /* відстань між рядками */
+    max-width: 600px; 
+    line-height: 1.2; 
 }
 
 .hero__btn {
@@ -76,7 +76,7 @@ ul {
     color: #fff;
     border: none;
     height: 50px;
-    margin-top: 30px; /* відступ від заголовка */
+    margin-top: 30px; 
     padding: 0 20px;
     border-radius: 10px;
 }
@@ -85,21 +85,21 @@ ul {
 
 
 .features {
-   padding: 40px; /* верхній та нижній відступ */
+   padding: 40px;
 }
 .features__title {
    text-align: center;
    margin-bottom: 40px;
 }
 .features__list {
-    display: flex; /* включає режим колонок (рядок) */
-    justify-content: space-between; /* рівномірно розтягує між собою */
-    gap: 40px; /* відстань між колонками */
+    display: flex;
+    justify-content: space-between; 
+    gap: 40px; 
     padding: 0;
     margin: 0;
 }
 .features__item {
-    width: 25%; /* кожен блок займає 1/4 ширини — 4 колонки */
+    width: 25%; 
 }
 .features__item-title {
     font-size: 18px; 
@@ -107,7 +107,7 @@ ul {
     margin-bottom: 10px; 
 }
 .features__item-text {
-    line-height: 1.5; /* відстань між рядками — читається краще */
+    line-height: 1.5; 
 }
 
 
@@ -128,16 +128,16 @@ ul {
    display: flex;
    justify-content: center;
    gap: 30px; 
-    padding: 0;  /* прибираємо відступи списку */
+    padding: 0;  
    margin: 0;
 
 }
 .team__item {
-   background-color: #fff; /* білий фон картки */
-   width: 250px; /* фіксована ширина */
-   border-radius: 8px; /* скруглені кути */
-   overflow: hidden; /* щоб фото не виступало за межі */
-   text-align: center; /* весь текст по центру */
+   background-color: #fff; 
+   width: 250px;
+   border-radius: 8px; 
+   overflow: hidden; 
+   text-align: center; 
 }
 .team__photo {
    width: 100%; 
@@ -176,25 +176,6 @@ ul {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*footer*/------------------------------------------------------
 
 .footer {
@@ -224,5 +205,5 @@ ul {
     color: #ccc;
     font-size: 16px;
     line-height: 1.6;
-    width: 300px; /* ширина колонки для 3 рядків */
+    width: 300px; 
 }
