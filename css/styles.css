@@ -1,0 +1,228 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* логотип зліва, меню справа */
+    align-items: center;           /* вирівнює по вертикалі */
+    padding: 20px;
+    background: #F4F4FD;
+    position: fixed;
+    width: 98%;
+}
+
+.header__logo {
+    
+}
+.header__logo-text {
+
+}
+.header__nav {
+   display: flex;
+    align-items: center;
+    gap: 1100px; /* відстань між меню і контактами */
+}
+
+.nav__list {
+   display: flex;                /* Робить елементи меню в ряд */
+    gap: 30px;                    /* Відстань між пунктами меню */
+    list-style: none;             /* Прибирає точки */
+    margin: 0;                    /* Прибирає стандартні зовнішні відступи */
+    padding: 0;                   /* Прибирає внутрішні відступи */
+}
+.nav__item {
+}
+.nav__link {
+    text-decoration: none;        /* Прибирає підкреслення */
+    color: black;                 /* Колір тексту */
+}
+.header__contacts {
+    display: flex;                /* Контакти в один ряд */
+    gap: 20px;                    /* Відстань між email і телефоном */
+    font-style: normal;           /* Прибирає курсив у <address> */
+}
+.contacts__link {
+   text-decoration: none;        /* Без підкреслення */
+    color: black;                 /* Колір тексту */
+
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* вертикальне центрування */
+    align-items: center;     /* горизонтальне центрування */
+    text-align: center;
+    background: #2E2F42;
+    width: 100%;
+    height: 600px;
+}
+
+.hero__title {
+    font-size: 70px;
+    color: #fff;
+    max-width: 600px; /* обмежує ширину, щоб текст переносився */
+    line-height: 1.2; /* відстань між рядками */
+}
+
+.hero__btn {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    height: 50px;
+    margin-top: 30px; /* відступ від заголовка */
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+
+
+
+.features {
+   padding: 40px; /* верхній та нижній відступ */
+}
+.features__title {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.features__list {
+    display: flex; /* включає режим колонок (рядок) */
+    justify-content: space-between; /* рівномірно розтягує між собою */
+    gap: 40px; /* відстань між колонками */
+    padding: 0;
+    margin: 0;
+}
+.features__item {
+    width: 25%; /* кожен блок займає 1/4 ширини — 4 колонки */
+}
+.features__item-title {
+    font-size: 18px; 
+    font-weight: 700; 
+    margin-bottom: 10px; 
+}
+.features__item-text {
+    line-height: 1.5; /* відстань між рядками — читається краще */
+}
+
+
+
+
+.team {
+   background-color: #F4F4FD;
+   width: auto;
+   height: 750px;
+   padding: 60px 0;
+}
+.team__title {
+   text-align: center; 
+   font-size: 28px;
+   margin-bottom: 40px; 
+}
+.team__list {
+   display: flex;
+   justify-content: center;
+   gap: 30px; 
+    padding: 0;  /* прибираємо відступи списку */
+   margin: 0;
+
+}
+.team__item {
+   background-color: #fff; /* білий фон картки */
+   width: 250px; /* фіксована ширина */
+   border-radius: 8px; /* скруглені кути */
+   overflow: hidden; /* щоб фото не виступало за межі */
+   text-align: center; /* весь текст по центру */
+}
+.team__photo {
+   width: 100%; 
+   display: block;
+
+}
+.team__name {
+   margin: 16px 0 6px 0;
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.team__role {
+     margin-bottom: 20px;
+}
+
+
+/*portfolio*/-------------------------------------------------------------
+
+
+.portfolio {
+}
+.portfolio__title {
+}
+.portfolio__list {
+}
+.portfolio__item {
+}
+.portfolio__photo {
+}
+.portfolio__name {
+}
+.portfolio__category {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/------------------------------------------------------
+
+.footer {
+   background: #2E2F42;
+   height: 312px;
+   width: auto;
+   padding-left: 60px;
+}
+.footer__logo {
+   
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+.footer__logo-text {
+     color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+.footer__text {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 300px; /* ширина колонки для 3 рядків */
+}
